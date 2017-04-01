@@ -38,26 +38,26 @@ public class MainActivity extends ActionBarActivity implements OnMapReadyCallbac
     GoogleMap m_map;
     boolean mapReady=false;
 
-    //TODO 1 : Buat CameraPostion dengan variable NEWYORK dengan LatLng(40.784,-73.9857), zoom(21), bearing(0). tilt(45)
+    //TODO 1 : Create CameraPostion :variable :  NEWYORK , LatLng : (40 784, -73.9857), zoom : (21), bearings (0), tilt (45)
 
-    //TODO 2 : Buat CameraPostion dengan variable SEATTLE dengan LatLng(47.6204,-122.3491), zoom(17), bearing(0). tilt(45)
+    //TODO 2 : Create CameraPostion :variable :  SEATTLE, LatLng (47.6204, -122.3491), zoom (17), bearings 	(0), tilt (45)
 
-    //TODO 3 : Buat CameraPostion dengan variable DUBLIN dengan LatLng(53.3478,-6.2597), zoom(17), bearing(90). tilt(45)
+    //TODO 3 : Create CameraPostion :variable : DUBLIN , LatLng (53.3478, -6.2597), 	zoom (17), bearings (90). tilt (45)
 
 
-    //TODO 4 : Buat CameraPostion dengan variable BANDUNG dengan LatLng(-6.9034443,107.5731168), zoom(17), bearing(90). tilt(45)
+    //TODO 4 : Create CameraPostion :variable : BANDUNG ,LatLng (-.9034443,107.5731168), 	zoom (17), bearings (90). tilt (45)
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //TODO 6 : Deklarasi button dengan id btnSeattle
+        //TODO 6 : Declaration of button with id : btnSeattle
 
-        //TODO 7 : Buat fungsi pada btnSeattle untuk mengubah tampilan map menjadi map SEATTLE
+        //TODO 7 : Create a function on btnSeattle to change the appearance of a Map to SEATTLE
 
-        //TODO 8 : Deklarasi button dengan id btnDublin
+        //TODO 8 : Declaration of button with id btnDublin
 
-        //TODO 9 : Buat fungsi pada btnSeattle untuk mengubah tampilan map menjadi map DUBLIN
+        //TODO 9 : Create function on btnSeattle to change the appearance of a Map to DUBLIN
 
 
         Button btnBandung = (Button) findViewById(R.id.btnBandung);
@@ -67,17 +67,17 @@ public class MainActivity extends ActionBarActivity implements OnMapReadyCallbac
             public void onClick(View v) {
                 if(mapReady) {
 
-                    //TODO 10 : Arahkan map pada BANDUNG
+                    //TODO 10 : Navigate the map to BANDUNG
 
-                    //TODO 11 : Buat fungsi menambah marker pada posisi BANDUNG
+                    //TODO 11 : Create a function to add the marker and set the position to BANDUNG
 
                 }
             }
         });
 
-        //TODO 16 : Deklarasi button dengan id btnMap
+        //TODO 16 : Declare a button with id btnMap
 
-        //TODO 17 : Buat fungsi pada btnM untuk intent implicit untuk berpindah pada aplikasi map
+        //TODO 17 : Create a function on btnMap for implicit intent to move the application map
 
 
         MapFragment mapFragment = (MapFragment) getFragmentManager().findFragmentById(R.id.map);
@@ -87,7 +87,7 @@ public class MainActivity extends ActionBarActivity implements OnMapReadyCallbac
 
     @Override
     public void onMapReady(GoogleMap map){
-        //TODO 5 : Buat mapReady dan ditujukan pada NEWYORK
+        //TODO 5 : Create mapReady and directed to NEWYORK
 
 
     }
