@@ -22,11 +22,11 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
         <!--TODO 23 : Daftar pada developer console google -->
-        <!--TODO 24 : Ganti value dengan kunci API yang telah dibuat -->
+        <!--TODO 24 : Replace the value with the API key has been created -->
         <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyAasiGv0GEHGQfUs9Q6dBoV6Dyqlv9IMQc"></meta-data>
 
     </application>
-    <!--TODO 14 : Buat permission untuk dapat mengakses internet-->
+    <!--TODO 14 : Create permission to access internet-->
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE">
     </uses-permission>
