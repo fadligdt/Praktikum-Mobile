@@ -20,13 +20,13 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true">
 
-            <!--TODO 12 : Buat tampilan untuk button dengan id : btnSeattle, btnBandung, btnDublin-->
+            <!--TODO 12 : Create the layout for the button with id: btnSeattle, btnBandung, btnDublin-->
 
-            <!--TODO 15 : buat button untuk intent dengan id : btnMap-->
+            <!--TODO 15 : create a button for intent with id: btnMap-->
 
 
         </LinearLayout>
-        <!--TODO 13 : Buat fragment untuk menampung nilai tampilan map -->
+        <!--TODO 13 : Create fragment to accommodate the layout Map Value -->
 
 
     </LinearLayout>
